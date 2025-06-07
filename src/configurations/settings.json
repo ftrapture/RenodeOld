@@ -1,0 +1,35 @@
+{
+    "opusConfig": {
+        "high": {
+            "sampleRate": 48000,
+            "frameDuration": 20,
+            "bitrate": 192000,
+            "fec": true,
+            "plp": 0,
+            "opusEncodingQuality": 10,
+            "application": "audio"
+        },
+        "medium": {
+            "sampleRate": 24000,
+            "frameDuration": 10,
+            "bitrate": 64000,
+            "fec": true,
+            "plp": 0.05,
+            "opusEncodingQuality": 5,
+            "application": "audio"
+        },
+        "low": {
+            "sampleRate": 24000,
+            "frameDuration": 10,
+            "bitrate": 96000,
+            "fec": true,
+            "plp": 0.05,
+            "opusEncodingQuality": 3,
+            "application": "voip"
+        }
+    },
+    "youtube": {
+        "api": "AIzaSyA-bC0MQzi8M3PxgKFq6E_fYGuLqNbECrY",
+        "endpoint": "http://35.223.106.127:8000"
+    }
+}
